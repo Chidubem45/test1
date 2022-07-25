@@ -1,0 +1,153 @@
+nav,
+header,
+footer {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+* {
+    box-sizing: border-box;
+}
+/************** Nav Bar ***********/
+
+nav {
+width: 100%;
+    margin: 0;
+}
+ 
+nav ul {
+    background-color: #eee;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.xoxo li {
+    list-style:none;
+    float: left;
+}
+
+ul.xoxo li.loo {
+    float: right;
+}
+ul.xoxo li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+ul.xoxo li a:hover {
+    background-color: #0080ff;
+    color: #fff;
+}
+
+ul.xoxo li.meow {
+    display: none;
+}
+
+/*######## cutsom styles #########*/
+
+#sec-1-gradient {
+    background-image: linear-gradient(#076Dff, #65a5ff);
+}
+.margi {
+    margin-left: 30px;
+}
+
+button {
+    font-size: 32px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #0069ff;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+.bbfrm {
+    width: 100%;
+    margin: 0%;
+}
+.submitform {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+h1.large {
+    color: white;
+    font-size:56px;
+    margin: 0;
+    line-height: 70px;
+}
+
+h1.sec-2-hd {
+    font-size: 65px;
+    text-align: center;
+}
+
+form h2 {
+    color: white;
+}
+
+input[type="text"] {
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+b {
+    color: red;
+}
+
+
+/*############ Mobile #################*/
+@media screen and (max-width: 680px) {
+    ul.xoxo li:not(:nth-child(1)) {
+        display: none; 
+    } 
+    ul.xoxo li.meow {
+        display: block;
+        float: right;
+    }
+    
+    ul.xoxo.responsive li.meow {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.xoxo.responsive{
+        position: relative;
+    }
+    
+    ul.xoxo.responsive li {
+        display:inline;
+        float: none;
+    }
+    ul.xoxo.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    .bbfrm {
+        margin: 0;
+    }
+    
+}
+   

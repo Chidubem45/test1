@@ -1,0 +1,382 @@
+/*########### Nav bar ###############*/
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+li {
+float: left;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding:14px 16px;
+    font-size: 15px;
+}
+* {
+    margin: 0;
+}
+li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+li:last-child {
+    text-align: right;
+    border-right: none;
+}
+
+li {
+    text-align: right;
+}
+ul.nav li.loo {
+    float: right;
+}
+ul.nav li a {
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+ul.nav li a:hover {
+    background-color: #0080ff;
+    color: #fff;
+}
+
+
+/*********************Styles*********************/
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+button {
+    width: 100%;
+    color: #000;
+    background-color: skyblue;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: purple;
+    color: #fff;
+    border-color: purple;
+}
+.Row2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.Row2::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+.row3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.row3::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66;}
+.col-12 {width: 100%;}
+
+
+div.leftside-col {
+    margin-left: 15%;
+}
+div.rightside-col {
+    margin-left: 15%;
+}
+div.lefty {
+    margin-left: 15%;
+}
+div.righty {
+    margin-left: 15%;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+/*################# custom styles ###################*/
+#home-id-body {
+    background-image: linear-gradient(#076Dff, #65a5ff);
+}
+
+.bckrnd {
+    background-image: url(hama.jpg);
+    height: 200px;
+    width: auto;
+}
+
+.tp {
+    padding-top: 100px;
+    text-align: center;
+    color: red;
+}
+
+img {
+    padding-top: 50px;
+    padding-bottom: 60px;
+    
+}
+
+li.icon {
+    display: none;
+}
+
+h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.lefty {
+  align-content: center;  
+}
+.Row2 {
+    background-image:linear-gradient(purple, blue) 
+}
+.unreal {
+    align-content: center;
+}
+h2 {
+    color: #fff;
+}
+
+
+.coming {
+    text-align: right;
+    align-items: center;
+    color: #fff;
+}
+  button {
+    width: 100%;
+    color: #000;
+    background-color: skyblue;
+       padding: 20px;
+      border-color: skyblue;
+}
+.downloadb a {
+   text-decoration: none;
+    color: #fff;
+    font-family: cursive;
+    font-size: 20px;
+}
+footer.footsy {
+    background-color: #666;
+    padding-left: 10%;
+}
+
+footer.footsy h1 {
+    color: #fff;
+    font-size: 35px;
+}
+footer.footsy ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+footer.footsy ul li {
+    color: #fff;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+
+ 
+/*############## media #################*/
+@media screen and (max-width: 1280px) {
+     ul li:not(:nth-child(1)){
+        display: none;
+    }
+    ul.nav li.icon {
+        color: #fff;
+        display: block;
+      float: right;
+    }
+/*
+    ul.navbar li.icon:hover {
+        color: #fff;
+    }
+*/
+    ul.nav.responsive li.icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.nav.responsive {
+        position: relative;
+    } 
+    ul.nav.responsive li {
+        display: inline;
+        float: none;
+    }
+    ul.nav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    div.box {
+        padding: 5px;
+        display: block;
+    }
+    .col-7,
+    .col-5,
+    .col-6,
+    .col-4 {
+        width: 100%;
+        margin: 0;
+    }
+    
+    div.leftside-col {
+        width: auto;
+        margin: 0%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+   div.rightside-col {
+        width: auto;
+       margin: 0%;
+       margin-left: 0%;
+       margin-right: 0%;
+    } 
+    img {
+        width: auto;
+        margin: 0%;
+       margin-left: 0%;
+       margin-right: 0%;
+    }
+    .col-6 {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+     div.leftside-col {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    
+    div.rightside-col {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    div.righty {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+     div.lefty {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+ div.left {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+     div.mid {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+ div.middle {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+     div.right {
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    
+    
+
+    button {
+    width: 100%;
+    color: #000;
+    background-color: skyblue;
+}
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

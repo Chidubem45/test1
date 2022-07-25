@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" type="text/css" href="sign-up.css">
+    
+    
+    </head>
+    <body>
+    <nav>
+    <ul class="xoxo" id="myname">
+        <li><a href="home.html" target="_blank";>home</a></li>
+        <li><a href="about.html" target="_blank";>about</a></li>
+        <li><a href="Contact.html" target="_blank";>contact</a></li>
+        <li class="loo"><a href="sign-in.html">sign in</a></li>
+        <li class="loo"><a href="#">sign up</a></li>
+        <li class="meow"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>
+        <div class="container" id="sec-1-gradient">
+            <div class="margi">
+            <h1 class="large">Crazy Radness</h1>
+            <h1 class="large">Made For Developers</h1>
+           <form>
+           <div class="leftside-col">
+               <h2>Name <b>*</b></h2>
+               <input class="inputbox" name="name" type="text" placeholder="e.g John">
+               <h2>Surname <b>*</b></h2>
+               <input class="inputbox" name="surname" type="text" placeholder="e.g Doe">
+               <h2>User name <b>*</b></h2>
+               <input class="inputbox" name="username" type="text" placeholder="user name">
+               <h2>E-mail <b>*</b></h2>
+               <input class="inputbox" name="username" type="text" placeholder="E-mail">
+               <h2>Password <b>*</b></h2>
+               <input class="inputbox" name="password" type="text" placeholder="password">
+               <br>
+               <br>
+               </div>
+           </form>
+                </div>
+            <button class="bbfrm"><a href="#" class="submitform">Sign up</a></button>
+            </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         <script>
+    function dropdownMenu() {
+        var x = document.getElementById("myname");
+        if (x.className === "xoxo") {
+            x.className += " responsive";
+            /*change xoxo to xoxo.responsive*/
+        } else {
+            x.className = "xoxo";
+        }
+    }
+    </script>
+    </body>
+</html>
