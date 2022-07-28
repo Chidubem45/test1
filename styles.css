@@ -201,7 +201,7 @@ footer.footsy ul li {
 }
 
 /*############ Mobile #################*/
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 1200px) {
     ul.xoxo li:not(:nth-child(1)) {
         display: none; 
     } 
