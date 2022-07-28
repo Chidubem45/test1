@@ -100,7 +100,9 @@ button:hover {
     clear: both;
     content: "";
 }
-
+i {
+    font-size: 20px;
+}
 
 
 .col-1 {width: 8.33%;}
