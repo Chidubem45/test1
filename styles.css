@@ -204,7 +204,10 @@ footer.footsy ul li {
 @media screen and (max-width: 1200px) {
     ul.xoxo li:not(:nth-child(1)) {
         display: none; 
-    } 
+    }
+    li {
+        font-size: 23;
+    }
     ul.xoxo li.meow {
         display: block;
         float: right;
