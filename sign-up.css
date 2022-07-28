@@ -86,6 +86,8 @@ button {
     text-align: center;
     text-decoration: none;
     color: #fff;
+    font-size: 32px;
+    display: block;
 }
 
 h1.large {
